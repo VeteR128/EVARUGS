@@ -1,0 +1,6 @@
+.product__main {
+  margin-top: 189px;
+  margin-left: calc(122% / (1440 / 100));
+  max-width: 676px;
+  width: 53.9%;
+}

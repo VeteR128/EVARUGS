@@ -1,0 +1,8 @@
+.product__img {
+  position: absolute;
+  top: calc(65% / (515 / 100));
+  right: calc(155% / (1440 / 100));
+  max-width: 533px;
+  width: 48%;
+  z-index: -1;
+}

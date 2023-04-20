@@ -1,0 +1,10 @@
+.product__info-title {
+  font-style: italic;
+  font-weight: 900;
+  font-size: calc(24px + 12 * (100vw / 1440));
+  line-height: 116%;
+
+  color: #000000;
+  margin: 0;
+  margin-left: 11px;
+}

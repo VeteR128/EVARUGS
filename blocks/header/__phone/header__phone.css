@@ -1,0 +1,15 @@
+.header__phone {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(9px + 6 * (100vw / 1440));
+  line-height: 63%;
+
+  color: #ffffff;
+  margin-top: 38px;
+  margin-bottom: 28px;
+  white-space: nowrap;
+}
+.header__phone:nth-of-type(1) {
+  margin-right: 12px;
+}

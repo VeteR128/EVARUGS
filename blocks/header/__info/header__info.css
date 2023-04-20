@@ -1,0 +1,26 @@
+.header__info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header__info:first-child {
+  margin-left: calc(128% / (1440 / 100));
+}
+.header__info:nth-child(2) {
+  margin-left: calc(177% / (1440 / 100));
+}
+
+.header__info:last-child {
+  margin-right: calc(90% / (1440 / 100));
+  margin-left: calc(360% / (1440 / 100));
+}
+@media screen and (max-width: 1153px) {
+  .header__info:last-child {
+    margin-left: calc(250% / (1440 / 100));
+  }
+}
+@media screen and (max-width: 940px) {
+  .header__info:last-child {
+    margin-left: calc(110% / (1440 / 100));
+  }
+}

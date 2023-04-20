@@ -1,0 +1,9 @@
+.product__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: calc(35px + 15 * (100vw / 1440));
+  line-height: 118%;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 10px;
+}

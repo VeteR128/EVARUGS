@@ -1,0 +1,12 @@
+.header__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(9px + 6 * (100vw / 1440));
+
+  line-height: 107%;
+
+  color: #ffffff;
+  margin: 0;
+  margin-top: 23px;
+  margin-bottom: 29px;
+}

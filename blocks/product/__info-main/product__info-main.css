@@ -1,0 +1,7 @@
+.product__info-main {
+  display: flex;
+  flex-direction: row;
+  margin-left: calc(122% / (1440 / 100));
+  margin-top: 47px;
+  align-items: center;
+}

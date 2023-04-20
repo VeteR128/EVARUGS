@@ -1,0 +1,11 @@
+.product__button {
+  background: linear-gradient(95.2deg, #b90160 2.23%, #2e3192 99.51%);
+  border-radius: 7px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: calc(12px + 8 * (100vw / 1440));
+  line-height: 115%;
+  text-align: center;
+  color: #ffffff;
+  padding: 16px 44.5px;
+}

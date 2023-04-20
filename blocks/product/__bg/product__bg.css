@@ -1,0 +1,7 @@
+.product__bg {
+  position: absolute;
+  top: calc(141% / (515 / 100));
+  right: calc(67% / (1440 / 100));
+  max-width: 745px;
+  width: 68.4%;
+}

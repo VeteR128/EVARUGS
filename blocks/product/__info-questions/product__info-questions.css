@@ -1,0 +1,4 @@
+.product__info-questions {
+  margin-right: calc(122% / (1440 / 100));
+  margin-top: 55px;
+}
