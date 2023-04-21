@@ -1,7 +1,11 @@
 .page {
-  max-width: 1440px;
   width: 100%;
   font-family: "Roboto", Arial, sans-serif;
   margin: 0 auto;
-  overflow: hidden;
+}
+@media screen and (max-width: 1440px) {
+  .page {
+    max-width: 1440px;
+    overflow: hidden;
+  }
 }

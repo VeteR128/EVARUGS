@@ -11,6 +11,12 @@
   padding-left: calc(123% / (1440 / 100));
   padding-right: calc(123% / (1440 / 100));
   padding-bottom: calc(58% / (1440 / 100));
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 1440px) {
+  .reviews__title {
+    margin-bottom: 0px;
+  }
 }
 @media screen and (max-width: 768px) {
   .reviews__title {

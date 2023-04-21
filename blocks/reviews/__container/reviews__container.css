@@ -1,9 +1,16 @@
 .reviews__container {
   display: flex;
   flex-direction: row;
-  margin-left: -154px;
-  margin-right: -154px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
+@media screen and (max-width: 1440px) {
+  .reviews__container {
+    margin-left: -154px;
+    margin-right: -154px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .reviews__container {
     flex-direction: column;
