@@ -1,0 +1,9 @@
+.about__img-bgone {
+  position: absolute;
+  max-width: 481px;
+  width: 35%;
+  left: calc(-57% / (1440 / 100));
+  top: calc(163% / (1440 / 100));
+  z-index: -1;
+  overflow: hidden;
+}

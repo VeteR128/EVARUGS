@@ -1,0 +1,8 @@
+.about__img-bgthree {
+  position: absolute;
+  max-width: 110px;
+  width: 11%;
+
+  left: calc(380% / (1440 / 100));
+  top: calc(600% / (573 / 100));
+}

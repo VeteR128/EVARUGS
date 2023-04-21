@@ -1,0 +1,21 @@
+.about__subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(24px + 12 * (100vw / 1440));
+  line-height: 116%;
+  margin: 23px 33px 0 22px;
+
+  color: #000000;
+}
+@media screen and (max-width: 768px) {
+  .about__subtitle {
+    font-size: calc(24px + 12 * (100vw / 768));
+  }
+}
+@media screen and (max-width: 320px) {
+  .about__subtitle {
+    margin-top: calc(15% / (320 / 100));
+    font-size: calc(20px + 10 * (100vw / 320));
+    margin-left: 17px;
+  }
+}

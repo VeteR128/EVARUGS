@@ -1,0 +1,5 @@
+@media screen and (max-width: 320px) {
+  .product__info-logo {
+    max-width: 60px;
+  }
+}

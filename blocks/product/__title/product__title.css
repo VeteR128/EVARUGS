@@ -7,3 +7,10 @@
   margin-top: 0;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 320px) {
+  .product__title {
+    font-size: calc(16px + 9 * (100vw / 320));
+    text-align: center;
+    line-height: 23px;
+  }
+}

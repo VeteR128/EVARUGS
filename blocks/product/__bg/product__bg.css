@@ -5,3 +5,8 @@
   max-width: 745px;
   width: 68.4%;
 }
+@media screen and (max-width: 768px) {
+  .product__bg {
+    right: calc(-13% / (1440 / 100));
+  }
+}

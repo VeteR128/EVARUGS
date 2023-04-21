@@ -1,0 +1,19 @@
+.reviews__container {
+  display: flex;
+  flex-direction: row;
+  margin-left: -154px;
+  margin-right: -154px;
+}
+@media screen and (max-width: 768px) {
+  .reviews__container {
+    flex-direction: column;
+    margin-left: calc(113% / (768 / 100));
+    margin-right: calc(113% / (768 / 100));
+  }
+}
+@media screen and (max-width: 440px) {
+  .reviews__container {
+    margin-left: calc(28% / (768 / 320));
+    margin-right: calc(28% / (768 / 320));
+  }
+}

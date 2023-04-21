@@ -1,0 +1,9 @@
+.about__img-bgtwo {
+  position: absolute;
+  max-width: 233px;
+  width: 25%;
+
+  left: calc(476% / (1440 / 100));
+  top: calc(368% / (573 / 100));
+  z-index: -1;
+}

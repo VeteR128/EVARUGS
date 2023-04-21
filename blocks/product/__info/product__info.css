@@ -3,3 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
+@media screen and (max-width: 320px) {
+  .product__info {
+  }
+}

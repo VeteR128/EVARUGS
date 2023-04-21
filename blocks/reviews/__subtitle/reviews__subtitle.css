@@ -1,0 +1,23 @@
+.reviews__subtitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc(8px +5 * (100vw / 1440));
+  line-height: 115%;
+  text-align: center;
+
+  color: #8e8e8e;
+  margin: 0;
+  padding-bottom: calc(58% / (1440 / 100));
+  padding-top: calc(15% / (1440 / 100));
+}
+@media screen and (max-width: 768px) {
+  .reviews__subtitle {
+    font-size: calc(8px +5 * (100vw / 768));
+  }
+}
+@media screen and (max-width: 440px) {
+  .reviews__subtitle {
+    font-size: calc(8px +5 * (100vw / 320));
+    padding-top: calc(27% / (320 / 100));
+  }
+}

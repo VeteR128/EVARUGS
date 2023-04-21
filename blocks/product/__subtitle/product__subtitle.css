@@ -8,3 +8,9 @@
   margin-top: 0;
   margin-bottom: 5px;
 }
+@media screen and (max-width: 320px) {
+  .product__subtitle {
+    font-size: calc(10px + 10 * (100vw / 320));
+    text-align: center;
+  }
+}

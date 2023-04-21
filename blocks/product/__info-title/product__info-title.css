@@ -8,3 +8,8 @@
   margin: 0;
   margin-left: 11px;
 }
+@media screen and (max-width: 320px) {
+  .product__info-title {
+    font-size: calc(12px + 6 * (100vw / 320));
+  }
+}

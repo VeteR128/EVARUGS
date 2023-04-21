@@ -1,0 +1,7 @@
+.footer__bgone {
+  position: absolute;
+  max-width: 110px;
+  width: 8%;
+  left: calc(69% / (1440 / 100));
+  bottom: calc(50% / (114 / 100));
+}

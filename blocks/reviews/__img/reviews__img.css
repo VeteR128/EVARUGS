@@ -1,0 +1,16 @@
+.reviews__img {
+  margin-bottom: -80px;
+  z-index: 2;
+  filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.25));
+  margin-top: calc(108% / (1440 / 100));
+}
+@media screen and (max-width: 768px) {
+  .reviews__img {
+    margin-top: calc(21% / (768 / 100));
+  }
+}
+@media screen and (max-width: 440px) {
+  .reviews__img {
+    margin-top: calc(-15% / (768 / 100));
+  }
+}

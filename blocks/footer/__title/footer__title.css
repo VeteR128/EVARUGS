@@ -1,0 +1,20 @@
+.footer__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(8px + 6 * (100vw / 1440));
+  line-height: 114%;
+
+  color: #000000;
+  margin: 0;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .footer__title {
+    font-size: calc(8px + 6 * (100vw / 768));
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer__title {
+    font-size: calc(8px + 6 * (100vw / 320));
+  }
+}

@@ -4,3 +4,8 @@
   max-height: 25px;
   margin-right: 8px;
 }
+@media screen and (max-width: 440px) {
+  .header__img-mesto {
+    display: none;
+  }
+}

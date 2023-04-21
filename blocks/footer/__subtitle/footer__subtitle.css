@@ -1,0 +1,22 @@
+.footer__subtitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc(8px + 6 * (100vw / 1440));
+  line-height: 114%;
+
+  color: #000000;
+  margin: 0;
+}
+.footer__subtitle:nth-of-type(1) {
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 768px) {
+  .footer__subtitle {
+    font-size: calc(8px + 6 * (100vw / 768));
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer__subtitle {
+    font-size: calc(8px + 6 * (100vw / 320));
+  }
+}

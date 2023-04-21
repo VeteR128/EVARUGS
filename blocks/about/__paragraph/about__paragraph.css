@@ -1,0 +1,20 @@
+.about__paragraph {
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc(8px + 6 * (100vw / 1440));
+  line-height: 114%;
+  margin: 10px 33px 23px 22px;
+
+  color: #767676;
+}
+@media screen and (max-width: 768px) {
+  .about__paragraph {
+    font-size: calc(8px + 6 * (100vw / 768));
+  }
+}
+@media screen and (max-width: 320px) {
+  .about__paragraph {
+    font-size: calc(5px + 8 * (100vw / 320));
+    margin: 7px 25px 21px 17px;
+  }
+}

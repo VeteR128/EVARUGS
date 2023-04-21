@@ -5,3 +5,14 @@
   margin-top: 47px;
   align-items: center;
 }
+@media screen and (max-width: 768px) {
+  .product__info-main {
+    margin-left: calc(66% / (768 / 100));
+    margin-top: calc(62% / (768 / 100));
+  }
+}
+@media screen and (max-width: 320px) {
+  .product__info-main {
+    margin-left: calc(66% / (320 / 100));
+  }
+}

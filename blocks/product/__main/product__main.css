@@ -1,6 +1,19 @@
 .product__main {
-  margin-top: 189px;
+  margin-top: calc(189% / (1440 / 100));
   margin-left: calc(122% / (1440 / 100));
   max-width: 676px;
   width: 53.9%;
+}
+@media screen and (max-width: 768px) {
+  .product__main {
+    margin-top: calc(61% / (768 / 100));
+  }
+}
+@media screen and (max-width: 320px) {
+  .product__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: calc(61% / (768 / 100)) auto 0;
+  }
 }

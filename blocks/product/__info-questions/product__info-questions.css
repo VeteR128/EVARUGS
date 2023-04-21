@@ -2,3 +2,8 @@
   margin-right: calc(122% / (1440 / 100));
   margin-top: 55px;
 }
+@media screen and (max-width: 768px) {
+  .product__info-questions {
+    display: none;
+  }
+}

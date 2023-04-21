@@ -13,3 +13,10 @@
   text-align: start;
   white-space: nowrap;
 }
+@media screen and (max-width: 440px) {
+  .header__title {
+    font-size: calc(9px + 6 * (100vw / 320));
+    margin-bottom: calc(51% / (320 / 100));
+    margin-top: calc(41% / (320 / 100));
+  }
+}

@@ -6,3 +6,14 @@
   width: 48%;
   z-index: -1;
 }
+@media screen and (max-width: 768px) {
+  .product__img {
+    top: calc(65% / (416 / 100));
+    right: calc(20% / (1440 / 100));
+  }
+}
+@media screen and (max-width: 320px) {
+  .product__img {
+    display: none;
+  }
+}

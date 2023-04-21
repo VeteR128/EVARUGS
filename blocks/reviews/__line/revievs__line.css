@@ -1,0 +1,6 @@
+.revievs__line {
+  max-width: 130px;
+  width: 100%;
+  border: 1px solid;
+  border-image: linear-gradient(45deg, rgb(168, 14, 171), rgb(66, 27, 137)) 1;
+}

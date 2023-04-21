@@ -1,0 +1,18 @@
+.about__card {
+  max-width: 344px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(184, 0, 95, 0.2);
+  border-radius: 9px;
+}
+@media screen and (max-width: 768px) {
+  .about__card {
+    max-width: 594px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about__card {
+    min-height: 385px;
+  }
+}
