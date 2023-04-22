@@ -11,6 +11,7 @@
   margin-top: calc(53% / (1440 / 100));
   margin-bottom: calc(53% / (1440 / 100));
   border: none;
+  cursor: pointer;
 }
 @media screen and (max-width: 320px) {
   .form__submit {
