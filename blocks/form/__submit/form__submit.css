@@ -1,0 +1,20 @@
+.form__submit {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(96.12deg, #d4145a -21.03%, #3d5bf5 103.56%);
+  border-radius: 9px;
+  padding: 10px 30px;
+  margin-top: calc(53% / (1440 / 100));
+  margin-bottom: calc(53% / (1440 / 100));
+  border: none;
+}
+@media screen and (max-width: 320px) {
+  .form__submit {
+    padding: 5px 15px;
+    font-size: calc(12px + 2 * (100vw / 320));
+  }
+}

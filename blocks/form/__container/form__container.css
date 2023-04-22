@@ -1,0 +1,17 @@
+.form__container {
+  max-width: 749px;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px 81px;
+  column-gap: 25px;
+  row-gap: 17px;
+}
+@media screen and (max-width: 768px) {
+  .form__container {
+    max-width: 749px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+}

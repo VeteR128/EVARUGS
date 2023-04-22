@@ -51,3 +51,12 @@
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__bgone/footer__bgone.css);
 @import url(../blocks/footer/__bgtwo/footer__bgtwo.css);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__container/form__container.css);
+@import url(../blocks/form/__email/form__email.css);
+@import url(../blocks/form/__message/form__message.css);
+@import url(../blocks/form/__name/form__name.css);
+@import url(../blocks/form/__submit/form__submit.css);
+@import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/active/active.css);

@@ -40,9 +40,9 @@
               <h2 class="product__info-title">EVARUGS</h2>
             </div>
             <div class="product__info-questions">
-              <a href="#" class="product__info-question">отзывы</a>
-              <a href="#" class="product__info-question">что это?</a>
-              <a href="#" class="product__info-question">контакты</a>
+              <a href="#one" class="product__info-question">отзывы</a>
+              <a href="#two" class="product__info-question">что это?</a>
+              <a href="#tree" class="product__info-question">контакты</a>
             </div>
           </div>
           <div class="product__main">
@@ -53,7 +53,7 @@
           <img class="product__img" src="images/кофр.svg" alt="кофр" />
           <img class="product__bg" src="images/подложка.svg" alt="подложка" />
         </section>
-        <section class="about">
+        <section class="about" id="two">
           <h3 class="about__title">
             Что такое <span class="about__title-color">EVA</span> коврики?
           </h3>
@@ -97,7 +97,7 @@
             alt="фонтри"
           />
         </section>
-        <section class="reviews">
+        <section class="reviews" id="one">
           <div class="reviews__container">
             <div class="reviews__card">
               <img class="reviews__img" src="images/photoOne.svg" alt="фото" />
@@ -143,7 +143,7 @@
           </div>
         </section>
       </main>
-      <footer class="footer">
+      <footer class="footer" id="tree">
         <div class="footer__container">
           <div class="footer__social">
             <h3 class="footer__title">МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h3>
@@ -165,6 +165,22 @@
         <img class="footer__bgone" src="images/footerBgOne.svg" alt="бгодин" />
         <img class="footer__bgtwo" src="images/footerBgTwo.svg" alt="бгдва" />
       </footer>
+      <div class="popup">
+        <form class="form" action="">
+          <h3 class="form__title">ФОРМА ЗАЯВКИ</h3>
+          <div class="form__container">
+            <input class="form__name" placeholder="Ваше имя" type="text" />
+            <input class="form__email" placeholder="Ваш email" type="email" />
+            <input
+              class="form__message"
+              placeholder="Ваше сообщение"
+              type="text"
+            />
+          </div>
+          <input class="form__submit" value="отправить" type="submit" />
+        </form>
+      </div>
     </div>
+    <script src="scripts/script.js"></script>
   </body>
 </html>

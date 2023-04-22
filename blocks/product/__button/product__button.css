@@ -8,6 +8,8 @@
   text-align: center;
   color: #ffffff;
   padding: 16px 44.5px;
+  z-index: 3;
+  border: none;
 }
 @media screen and (max-width: 320px) {
   .product__button {
